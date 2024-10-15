@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Noticias - JCRY Technology{% endblock %}
+
+{% block content %}
+    <section class="noticias">
+        <h2>Últimas Noticias</h2>
+        
+        <div class="noticia">
+            <img src="{{ url_for('static', filename='img/news1.png') }}" alt="Lanzamiento">
+            <h3>Nueva Línea de Productos</h3>
+            <p>Estamos emocionados de anunciar el lanzamiento de nuestra nueva línea de gadgets tecnológicos, diseñados para ofrecer soluciones innovadoras a nuestros clientes.</p>
+        </div>
+
+        <div class="noticia">
+            <img src="{{ url_for('static', filename='img/news2.png') }}" alt="Campaña de Marketing">
+            <h3>Campaña de Marketing Digital 2024</h3>
+            <p>Lanzamos nuestra nueva campaña de marketing digital enfocada en estrategias SEO, redes sociales y contenido visual para aumentar la visibilidad de nuestros clientes en línea.</p>
+        </div>
+
+        <div class="noticia">
+            <img src="{{ url_for('static', filename='img/news3.png') }}" alt="Premio Innovación">
+            <h3>Premio a la Innovación</h3>
+            <p>Nos enorgullece recibir el Premio a la Innovación 2024, en reconocimiento a nuestros avances en el campo del marketing digital y las tecnologías emergentes.</p>
+        </div>
+        
+        <!-- Comentario: Puedes agregar más noticias dinámicamente -->
+    </section>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}Quiénes Somos - JCRY Marketing Digital Bolivia{% endblock %}
+
+{% block content %}
+    <section class="historia">
+        <h2>La Historia de JCRY Marketing Digital Bolivia</h2>
+        <p>Fundada en 2024, JCRY Marketing Digital Bolivia ha evolucionado de ser un proveedor de soluciones tecnológicas a una empresa líder en marketing digital. Nuestro compromiso es ayudar a empresas de todos los tamaños a establecer una presencia fuerte y efectiva en el mundo digital.</p>
+    </section>
+
+    <section class="mision-vision">
+        <h2>Nuestra Misión y Visión</h2>
+        <p><strong>Misión:</strong> Proveer estrategias innovadoras de marketing digital que permitan a nuestros clientes destacarse en el competitivo mundo online, optimizando su presencia en redes sociales, SEO, y publicidad digital.</p>
+        <p><strong>Visión:</strong> Ser reconocidos como la agencia de marketing digital de referencia en Latinoamérica, impulsando la transformación digital de empresas a través de soluciones creativas y tecnología de vanguardia.</p>
+    </section>
+
+    <section class="equipo">
+        <h2>Conoce a Nuestro Equipo</h2>
+        <img src="{{ url_for('static', filename='img/team.png') }}" alt="Equipo de trabajo de JCRY Technology">
+        <p>Somos un equipo de expertos en marketing digital, tecnología y creatividad, comprometidos en impulsar el crecimiento digital de nuestros clientes. Nuestro equipo combina años de experiencia en SEO, gestión de redes sociales, desarrollo web, y publicidad digital para crear estrategias que realmente marcan la diferencia.</p>
+    </section>
+    
+    <section class="valores">
+        <h2>Nuestros Valores</h2>
+        <p><strong>Innovación:</strong> Nos mantenemos a la vanguardia de las últimas tendencias tecnológicas y de marketing.</p>
+        <p><strong>Compromiso:</strong> Trabajamos de la mano con nuestros clientes para asegurar su éxito.</p>
+        <p><strong>Transparencia:</strong> Creemos en la comunicación clara y en la entrega de resultados medibles.</p>
+    </section>
+{% endblock %}
